@@ -6,8 +6,8 @@ let height=window.innerHeight;
     let h=div.firstChild;
     h.innerText="Width: "+width+" and Height: "+height;  
 window.addEventListener("resize",function(){
-    let height=this.innerHeight;
-    let width=this.innerWidth;
+    let height=window.innerHeight;
+    let width=window.innerWidth;
    let div=document.getElementById("sizeInfo");
     let h=div.firstChild;
     h.innerText="Width: "+width+" and Height: "+height; 
